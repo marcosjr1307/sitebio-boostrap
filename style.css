@@ -6,6 +6,22 @@ nav{
     background-color: rgb(22, 97, 22);
 }
 
+.dropdown-menu{
+  background-color: rgb(79, 123, 79);
+}
+
+.dropdown-item{
+  color: white;
+}
+
+.dropdown-item:hover{
+  background-color: rgb(216, 232, 216);
+  color: black;
+}
+
+.dropdown-item:visited{
+  background-color: rgb(216, 232, 216);
+}
 
 
 .main{
@@ -46,6 +62,10 @@ p{
   }
 
   @media (min-width: 1200px){
+    .logoCotil{
+      width: 100px;
+    }
+
     .firstRow{
         margin-bottom: 1%;
     }
@@ -75,6 +95,10 @@ p{
   }
 
   @media (min-width: 992px) and (max-width: 1199px){
+    .logoCotil{
+      width: 100px;
+    }
+
     .firstRow{
         margin-bottom: 1%;
     }
@@ -110,6 +134,10 @@ p{
   }
 
   @media (min-width: 769px) and (max-width: 991px){
+    .logoCotil{
+      width: 100px;
+    }
+
     .firstRow{
         margin-bottom: 1%;
     }
@@ -147,6 +175,10 @@ p{
   }
 
   @media (min-width: 456px) and (max-width: 768px){
+    .logoCotil{
+      width: 100px;
+    }
+
     .firstRow{
         margin-bottom: 1%;
     }
@@ -185,6 +217,10 @@ p{
 
   
   @media (max-width: 455px){
+    .logoCotil{
+      width: 100px;
+    }
+
     .firstRow{
         margin-bottom: 1%;
     }
