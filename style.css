@@ -92,6 +92,14 @@ p{
         padding-inline: 2%;
         padding-bottom: 2%;
     }
+
+    .card-body h5{
+      font-size: 1.2em;
+    }
+
+    .card-body p{
+      font-size: 1em;
+    }
   }
 
   @media (min-width: 992px) and (max-width: 1199px){
