@@ -98,7 +98,7 @@ p{
     }
 
     .card-body p{
-      font-size: 0.2em;
+      font-size: 1em;
     }
   }
 
@@ -137,11 +137,11 @@ p{
     }
 
     .card-body p{
-      font-size: 0.2em;
+      font-size: 0.9em;
     }
   }
 
-  @media (min-width: 769px) and (max-width: 991px){
+  @media (min-width: 768px) and (max-width: 991px){
     .logoCotil{
       width: 100px;
     }
@@ -178,12 +178,16 @@ p{
     }
 
     .card-body p{
-      font-size: 0.26em;
-      color: white;
+      font-size: 0.66em;
+    }
+
+    .btnCard{
+      width: 45%;
+      font-size: 0.8em;
     }
   }
 
-  @media (min-width: 576px) and (max-width: 768px){
+  @media (min-width: 576px) and (max-width: 767px){
     .logoCotil{
       width: 100px;
     }
@@ -274,7 +278,7 @@ p{
   }
 
   
-  @media (max-width: 455px){
+  @media  (min-width: 299px) and (max-width: 455px){
     .logoCotil{
       width: 100px;
     }
@@ -314,10 +318,63 @@ p{
     }
 
     .card-body h5{
-      font-size: 1em;
+      font-size: 0.85em;
     }
 
     .card-body p{
-      font-size: 0.8em;
+      font-size: 0.7em;
+    }
+  }
+
+  @media (max-width: 298px){
+    .logoCotil{
+      width: 100px;
+    }
+    .titleMain{
+      text-align: center;
+    }
+    .text{
+      text-align: center;
+    }
+
+    .firstRow{
+        margin-bottom: 1%;
+    }
+
+    .marginBt{
+        margin-bottom: 1%;
+    }
+
+    .main{
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 14%;
+        width: 90%;
+    }
+
+    .imagemMain img{
+        width: 90%;   
+    }
+
+    .marginCards{
+        margin-bottom: 10.6%;
+      }
+
+    .main{
+        padding-inline: 4%;
+        padding-bottom: 0%;
+    }
+
+    .card-body h5{
+      font-size: 0.7em;
+    }
+
+    .card-body p{
+      font-size: 0.6em;
+    }
+
+    .btnCard{
+      width: 38%;
+      font-size: 0.6em;
     }
   }
