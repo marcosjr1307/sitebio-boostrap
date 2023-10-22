@@ -9,41 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
-    <style>
-      .firstImage{
-          height: 80%;
-          width: 55%;
-          margin-top: 1%;
-      }
-      
-      .text{
-          background-color: rgb(226, 235, 226);
-          padding: 3%;
-          border-radius: 20px;
-      }
-
-      .secondImage{
-          height: 85%;
-          width: 98%;
-          margin-top: 9%;
-      }
-
-      .thirdImage{
-          margin-top: 2%;
-          height: 90%;
-          width: 75%;
-      }
-
-      .desc{
-          text-align: center;
-      }
-
-      .text{
-          margin-bottom: 15%;
-      }
-      
-
-  </style>
+    <link rel="stylesheet" href="curiosidades.css">
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -82,6 +48,7 @@
                     <li><a class="dropdown-item active" href="curiosidades.html">Curiosidades</a></li>
                 </ul>
               </li>
+              <a class="nav-link" href="forms.html">Fale conosco!</a>
             </ul>
             <!--<form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -100,22 +67,88 @@
         </div>
       </div> 
 
-        <div class="container text mt-4">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <img class="rounded float-start secondImage" src="img/oncaCuriosidadeS.png" alt="Onça animada">
+        <div class="container text mt-4 textCuriosidades">
+            <div class="row teste">
+                <div class="col-md-6 col-sm-12 teste">
+                    <img class="rounded float-start secondImageCuriosidades" src="img/oncaCuriosidadeS.png" alt="Onça animada">
                 </div>
 
                 <div class="col-md-6 col-sm-12">
                     <p class="lead" style="margin-left: 2%; margin-right: 2%;"> 
-                      <ul>
-                        <li><p class="lead">Etimologia: a palavra “Yaguar” (Jaguar) é um termo nativo da América do Norte e significa “matador”.</p></li>
-                        <li><p class="lead">Peso: uma onça-pintada pode pesar entre 55 kg e 135 kg. Esse fator vai depender do habitat do animal. No Brasil, as onças-pintadas do Pantanal são maiores e mais pesadas que as da Amazônia, por exemplo.</p></li>
-                        <li><p class="lead">Altura: a onça-pintada apresenta uma altura variável entre 68 cm e 76 cm, fora a cauda. Essa pode medir entre 45 cm a 65 cm.</p></li>
-                        <li><p class="lead">Comprimento: Os machos das onças-pintadas são maiores que as fêmeas. Eles possuem um comprimento entre de 1,4 a 1,8 metros, enquanto as fêmeas é de 1,2 a 1,7 metros.</p>
-                        </li>
-                      </ul>
-                    </p>
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Etimologia
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              A palavra <strong>“Yaguar”</strong> (Jaguar) é um termo nativo da América do Norte e significa “matador”.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Peso
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Uma onça-pintada pode pesar entre 55 kg e 135 kg. Esse fator vai depender do habitat do animal. No Brasil, as onças-pintadas do Pantanal são maiores e mais pesadas que as da Amazônia, por exemplo.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Altura
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              A onça-pintada apresenta uma altura variável entre <code>68 cm</code> e <code>76 cm</code>, fora a cauda. Essa pode medir entre <code>45 cm</code> a <code>65 cm</code>.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Comprimento
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Os machos das onças-pintadas são maiores que as fêmeas. Eles possuem um comprimento entre de 1,4 a 1,8 metros, enquanto as fêmeas é de 1,2 a 1,7 metros.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              Rosetas
+                            </button>
+                          </h2>
+                          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <button class="canvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Rosetas</button>
+
+                              <div class="offcanvas offcanvas-start styleCanvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                                <div class="offcanvas-header">  
+                                  <h5 class="offcanvas-title display-6 canvasTitle" id="offcanvasScrollingLabel">As rosetas</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  <p class="lead canvasP">As onças-pintadas carregam muito mais singularidades do que apenas o título de maior felino das Américas. Como dito as rosetas funcionam semelhante a uma impressão digital, que diferenciam um indivíduo do outro. A disposição das manchas, fruto de uma combinação genética e única para cada ser, nunca se repete, mesmo em espécies da mesma fámilia, atuando como impressão digital desses felinos. A formação das rosetas se inicia logo no primeiro mês de <strong>desenvolvimento embrionário</strong> dos filhotes, quando ocorre um espessamento temporário da pele nos locais onde, mais tarde, aparecerão as pintas escuras. Tudo isso bem antes do surgimento de pelos.</p>
+                                </div>
+                              </div> são as manchas pretas espalhadas pelo corpo da onça, as quais seguem combinações únicas. Ou seja, o padrão de manchas nunca será igual de uma onça para outra! Assim como a digital humana, que é capaz de identificar cada ser individualmente, as rosetas também nos ajudam a reconhecer cada uma das onças estudadas. 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>

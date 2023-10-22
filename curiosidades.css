@@ -1,0 +1,153 @@
+.text{
+    background-color: rgb(226, 235, 226);
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.canvas{
+    background-color: inherit;
+    text-decoration: none;
+    border: none;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.styleCanvas{
+    background-color: rgb(111, 167, 111);
+}
+
+.accordion-button{
+    background-color: rgb(116, 160, 116);
+}
+
+@media (min-width: 1200px){
+    .textCuriosidades{
+        margin-bottom: 12%;
+    }
+
+    .secondImageCuriosidades{
+        width: 80%;
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+
+    .styleCanvas{
+        width: 30%!important;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .textCuriosidades{
+        margin-bottom: 12%;
+    }
+
+    .secondImageCuriosidades{
+        width: 80%;
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+
+    .styleCanvas{
+        width: 40%!important;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .textCuriosidades{
+        margin-bottom: 12%;
+    }
+
+    .secondImageCuriosidades{
+        width: 80%;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .styleCanvas{
+        width: 40%!important;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .textCuriosidades{
+        margin-bottom: 12%;
+    }
+
+    .secondImageCuriosidades{
+        width: 80%;
+        margin-left: 13%;
+    }
+
+    .styleCanvas{
+        width: 50%!important;
+    }
+}
+
+
+@media (min-width: 456px) and (max-width: 575px){
+    .textCuriosidades{
+        margin-bottom: 18%;
+        width: 95%;
+    }
+
+    .secondImageCuriosidades{
+        width: 80%;
+        margin-left: 13%;
+    }
+
+    .styleCanvas{
+        width: 60%!important;
+    }
+}
+
+
+@media  (min-width: 299px) and (max-width: 456px){
+    .textCuriosidades{
+        margin-bottom: 18%;
+        width: 95%;
+    }
+
+    .secondImageCuriosidades{
+        width: 80%;
+        margin-left: 13%;
+    }
+
+    .styleCanvas{
+        width: 60%!important;
+    }
+
+    .canvasP{
+        font-size: 1em;
+    }
+}
+
+
+
+@media (max-width: 298px){
+    .textCuriosidades{
+        margin-bottom: 18%;
+        width: 95%;
+    }
+
+    .secondImageCuriosidades{
+        width: 80%;
+        margin-left: 13%;
+    }
+
+    .styleCanvas{
+        width: 70%!important;
+    }
+
+    .canvasP{
+        font-size: 0.8em;
+    }
+
+    .canvasTitle{
+        font-size: 1em;
+        text-align: center;
+    }
+}

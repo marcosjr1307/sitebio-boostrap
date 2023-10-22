@@ -1,0 +1,639 @@
+.text{
+    background-color: rgb(226, 235, 226);
+    padding: 3%;
+    border-radius: 20px;
+}
+
+
+@media (min-width: 1200px){
+    /*-------Sixth.html-------*/
+    .mainSixth{
+        margin-bottom: 6%;
+    }
+
+    .firstImageSixth{
+        width: 60%;
+        margin-top: 1%;
+    }
+
+    .secondImageSixth{
+        width: 100%;
+    }
+
+    .textSixth{
+        margin-bottom: 10%;
+    }
+
+    .paragraphSixth{
+        margin-top: 5.8%;
+    }
+
+    /*-------Seventh.html-------*/
+    .firstImageSeventh{
+        width: 45%;
+        margin-top: 1%;
+    }
+
+    .mainSeventh{
+        margin-bottom: 5%;
+    }
+
+    .secondImageSeventh{
+        width: 45%;
+        margin-left: 50%;
+    }
+
+    .textSeventh p{
+        margin-top: 3%;
+    }
+    .textSeventh{
+        margin-bottom: 18%;
+    }
+
+    /*-------Eighth.html-------*/
+    .firstImageEighth{
+        width: 45%;
+        margin-top: 1%;
+    }
+
+    .secondImageEighth{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mainEighth{
+        margin-bottom: 6%;
+    }
+
+    .textEighth{
+        margin-bottom: 10%;
+    }
+
+    .textEighth p{
+        margin-top: 5%;
+    }
+
+    .rowDesc{
+        margin-top: 3%;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  /*-------Sixth.html-------*/
+  .mainSixth{
+    margin-bottom: 6%;
+    }
+
+    .firstImageSixth{
+        width: 60%;
+        margin-top: 1%;
+    }
+
+    .secondImageSixth{
+    width: 100%;
+    }
+
+    .textSixth{
+        margin-bottom: 10%;
+    }
+
+    .paragraphSixth{
+        font-size: 1.15em;
+        margin-top: 0.9%;
+    }
+
+     /*-------Seventh.html-------*/
+     .firstImageSeventh{
+        width: 45%;
+        margin-top: 1%;
+    }
+
+    .mainSeventh{
+        margin-bottom: 5%;
+    }
+
+    .secondImageSeventh{
+        width: 45%;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+
+    .textSeventh p{
+        margin-top: 3%;
+    }
+    .textSeventh{
+        margin-bottom: 18%;
+    }
+
+    /*-------Eighth.html-------*/
+    .firstImageEighth{
+        width: 45%;
+        margin-top: 1%;
+    }
+
+    .secondImageEighth{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mainEighth{
+        margin-bottom: 6%;
+    }
+
+    .textEighth{
+        margin-bottom: 10%;
+    }
+
+    .textEighth p{
+        margin-top: 5%;
+    }
+
+    .textEighth img{
+        margin-top: 10%;
+    }
+
+    .rowDesc{
+        margin-top: 3%;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    /*-------Sixth.html-------*/
+  .mainSixth{
+    margin-bottom: 6%;
+    }
+
+    .firstImageSixth{
+        width: 60%;
+        margin-top: 1%;
+    }
+
+    .secondImageSixth{
+    width: 100%;
+    }
+
+    .textSixth{
+        margin-bottom: 10%;
+    }
+
+    .paragraphSixth{
+        font-size: 0.85em;
+        margin-top: 0.9%;
+    }
+
+    /*-------Seventh.html-------*/
+    .firstImageSeventh{
+        width: 45%;
+        margin-top: 1%;
+    }
+
+    .mainSeventh{
+        margin-bottom: 5%;
+    }
+
+    .secondImageSeventh{
+        width: 90%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
+    .textSeventh p{
+        margin-top: 3%;
+    }
+    .textSeventh{
+        margin-bottom: 18%;
+    }
+
+    /*-------Eighth.html-------*/
+    .firstImageEighth{
+        width: 45%;
+        margin-top: 1%;
+    }
+
+    .secondImageEighth{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mainEighth{
+        margin-bottom: 6%;
+    }
+
+    .textEighth{
+        margin-bottom: 10%;
+    }
+
+    .textEighth p{
+        font-size: 0.85em;
+    }
+
+    .rowDesc{
+        margin-top: 2%;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    /*-------Sixth.html-------*/
+  .mainSixth{
+    margin-bottom: 6%;
+    }
+
+    .firstImageSixth{
+        width: 80%;
+        margin-top: 1%;
+    }
+
+    .secondImageSixth{
+    width: 100%;
+    }
+
+    .textSixth{
+        margin-bottom: 10%;
+    }
+
+    .paragraphSixth{
+        font-size: 1em;
+        margin-top: 3%;
+    }
+
+    /*-------Seventh.html-------*/
+    .firstImageSeventh{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .mainSeventh{
+        margin-bottom: 5%;
+    }
+
+    .secondImageSeventh{
+        width: 50%;
+        margin-left: 28%;
+    }
+
+    .textSeventh p{
+        margin-top: 3%;
+    }
+    .textSeventh{
+        margin-bottom: 18%;
+    }
+
+    /*-------Eighth.html-------*/
+    .firstImageEighth{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .secondImageEighth{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mainEighth{
+        margin-bottom: 6%;
+    }
+
+    .textEighth{
+        margin-bottom: 10%;
+    }
+
+    .paragraphEighth{
+        margin-top: 5%;
+    }
+
+    .textEighth p{
+        font-size: 1em;
+    }
+
+    .rowDesc{
+        margin-top: 2%;
+    }
+}
+
+
+
+@media (min-width: 456px) and (max-width: 575px){
+    /*-------Sixth.html-------*/
+  .mainSixth{
+    margin-bottom: 10%;
+    }
+
+    .firstImageSixth{
+        width: 80%;
+        margin-top: 1%;
+    }
+
+    .secondImageSixth{
+    width: 100%;
+    }
+
+    .textSixth{
+        margin-bottom: 10%;
+        width: 90%;
+    }
+
+    .paragraphSixth{
+        font-size: 1em;
+        margin-top: 3%;
+    }
+
+     /*-------Seventh.html-------*/
+     .firstImageSeventh{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .mainSeventh{
+        margin-bottom: 5%;
+    }
+
+    .secondImageSeventh{
+        width: 50%;
+        margin-left: 28%;
+    }
+
+    .textSeventh p{
+        margin-top: 3%;
+    }
+    .textSeventh{
+        margin-bottom: 18%;
+        width: 90%;
+    }
+
+     /*-------Eighth.html-------*/
+     .firstImageEighth{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .secondImageEighth{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mainEighth{
+        margin-bottom: 6%;
+    }
+
+    .mainEighth h5{
+        text-align: center;
+    }
+
+    .mainEighth p{
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    .textEighth{
+        margin-bottom: 10%;
+        width: 95%;
+    }
+
+    .paragraphEighth{
+        margin-top: 5%;
+    }
+    
+    .textEighth p{
+        font-size: 1em;
+    }
+
+    .rowDesc{
+        margin-top: 2%;
+    }
+}
+
+  
+
+
+@media  (min-width: 299px) and (max-width: 456px){
+    /*-------Sixth.html-------*/
+    .mainSixth{
+    margin-bottom: 13%;
+    }
+
+    .mainSixth h5{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .mainSixth p{
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .firstImageSixth{
+        width: 80%;
+        margin-top: 1%;
+    }
+
+    .secondImageSixth{
+        width: 100%;
+    }
+
+    .textSixth{
+        margin-bottom: 10%;
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    .paragraphSixth{
+        font-size: 1em;
+        margin-top: 3%;
+    }
+
+    /*-------Seventh.html-------*/
+    .firstImageSeventh{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .mainSeventh{
+        margin-bottom: 5%;
+    }
+
+    .mainSeventh p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .mainSeventh h5{
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .secondImageSeventh{
+        width: 50%;
+        margin-left: 28%;
+    }
+
+    .textSeventh p{
+        margin-top: 3%;
+        font-size: 0.9em;
+    }
+    .textSeventh{
+        margin-bottom: 25%;
+        width: 90%;
+    }
+
+    /*-------Eighth.html-------*/
+    .firstImageEighth{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .secondImageEighth{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mainEighth{
+        margin-bottom: 6%;
+    }
+
+    .mainEighth h5{
+        text-align: center;
+    }
+
+    .mainEighth p{
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    .textEighth{
+        margin-bottom: 20%;
+        width: 95%;
+    }
+
+    .paragraphEighth{
+        margin-top: 5%;
+    }
+    
+    .textEighth p{
+        font-size: 0.9em;
+    }
+
+    .rowDesc{
+        margin-top: 2%;
+    }
+}
+
+
+
+
+@media (max-width: 298px){
+    /*-------Sixth.html-------*/
+    .mainSixth{
+        margin-bottom: 13%;
+    }
+    
+    .mainSixth h5{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .mainSixth p{
+        font-size: 0.9em;
+        text-align: center;
+    }
+    
+    .firstImageSixth{
+        width: 80%;
+        margin-top: 1%;
+    }
+    
+    .secondImageSixth{
+        width: 100%;
+    }
+    
+     .textSixth{
+        margin-bottom: 10%;
+        width: 90%;
+        font-size: 0.9em;
+    }
+    
+    .paragraphSixth{
+        font-size: 0.8em;
+        margin-top: 3%;
+    }
+
+    /*-------Seventh.html-------*/
+    .firstImageSeventh{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .mainSeventh{
+        margin-bottom: 5%;
+    }
+
+    .mainSeventh p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .mainSeventh h5{
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .secondImageSeventh{
+        width: 50%;
+        margin-left: 28%;
+    }
+
+    .textSeventh p{
+        margin-top: 3%;
+        font-size: 0.9em;
+    }
+    .textSeventh{
+        margin-bottom: 25%;
+        width: 90%;
+    }
+
+    /*-------Eighth.html-------*/
+    .firstImageEighth{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .secondImageEighth{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mainEighth{
+        margin-bottom: 6%;
+    }
+
+    .mainEighth h5{
+        text-align: center;
+    }
+
+    .mainEighth p{
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .textEighth{
+        margin-bottom: 20%;
+        width: 95%;
+    }
+
+    .paragraphEighth{
+        margin-top: 5%;
+    }
+    
+    .textEighth p{
+        font-size: 0.9em;
+    }
+
+    .rowDesc{
+        margin-top: 2%;
+    }
+}

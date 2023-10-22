@@ -46,6 +46,17 @@ p{
     text-align: justify;
 }
 
+.textForm{
+  background-color: rgb(129, 171, 129);
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3%;
+}
+
+.mainForm{
+  margin-bottom: 10%
+}
+
 /*Index.html*/
 .redeSocial i{
     color: white;
@@ -61,7 +72,30 @@ p{
     text-align: center;
   }
 
+  /*Personagem.html*/
+  .containerPersonagem{
+    background-color: rgb(226, 235, 226);
+    padding: 2%;
+  }
+
+  /*First.html*/
+  .textFirst{
+    background-color: rgb(226, 235, 226);
+  } 
+
+  .botaoFirst{
+    border: none;
+    font-style: inherit;
+    color: blue;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
   @media (min-width: 1200px){
+    /*----------Index.html----------*/
     .logoCotil{
       width: 100px;
     }
@@ -100,9 +134,64 @@ p{
     .card-body p{
       font-size: 1em;
     }
+
+    /*----------personagem.html----------*/
+    .secondImagePersonagem{
+      width: 90%;
+    }
+
+    .textPersonagem{
+      margin-top: 2%;
+      font-size: 1.7em;
+    }
+
+
+    /*----------aluno.html----------*/
+    .firstCard{
+      margin-bottom: 10%;
+    }
+
+    /*forms.html*/
+    option{
+      font-size: 0.8em;
+    }
+
+     /*----------first.html----------*/
+     .firstImagefirst{
+      width: 55%;
+      margin-top: 1%;
+    }
+
+    .textFirst{
+      padding: 3%;
+      border-radius: 20px;
+    } 
+
+    .mainFirst{
+      margin-bottom: 5%;
+    }
+
+    .secondImageFirst{
+      width: 98%;
+    }
+
+    .thirdImageFirst{
+      margin-top: 2%;
+      margin-bottom: 0.8%;
+      width: 75%;
+    }
+
+    .textFirst{
+      margin-bottom: 15%;
+    }
+
+    .rowFirst{
+      margin-top: 3%;
+    }
   }
 
   @media (min-width: 992px) and (max-width: 1199px){
+    /*----------Index.html----------*/
     .logoCotil{
       width: 100px;
     }
@@ -139,9 +228,102 @@ p{
     .card-body p{
       font-size: 0.9em;
     }
+    /*----------personagem.html----------*/
+    .containerPersonagem{
+      padding: 3%;
+      border-radius: 20px;
+      margin-bottom: 15%;
+    }
+
+    .secondImagePersonagem{
+      width: 98%;
+    }
+
+    .textPersonagem{
+      margin-top: 4.6%;
+      font-size: 1.5em;
+    }
+
+    /*----------aluno.html----------*/
+    .firstCard{
+      margin-bottom: 12%;
+    }
+
+    /*forms.html*/
+    .sendIcon{
+      margin-right: 10px;
+    }
+    
+    option{
+      font-size: 0.8em;
+    }
+
+    input::placeholder, textarea::placeholder{
+      font-size: 1em;
+    }
+
+    .turma::placeholder{
+      font-size: 0.9em;
+    }
+
+    /*forms.html*/
+    option{
+      font-size: 0.8em;
+    }
+
+    .mainForm{
+      margin-bottom: 20%;
+    }
+
+     /*----------first.html----------*/
+     .firstImagefirst{
+      width: 55%;
+      margin-top: 1%;
+    }
+
+    .textFirst{
+      padding: 3%;
+      border-radius: 20px;
+    } 
+
+    .mainFirst{
+      margin-bottom: 5%;
+    }
+
+    .secondImageFirst{
+      width: 98%;
+    }
+
+    .thirdImageFirst{
+      margin-top: 2%;
+      margin-bottom: 0.8%;
+      width: 75%;
+    }
+
+    .textFirst{
+      margin-bottom: 15%;
+    }
+
+    .pFirst{
+      margin-top: 3%;
+      font-size: 0.95em;
+    }
+
+    .rowFirst{
+      margin-top: 3%;
+    }
+
+    .rowFirst p{
+      font-size: 0.95em;
+    }
+
+    .descFirst{
+      font-size: 0.95em;
+    }
   }
 
   @media (min-width: 768px) and (max-width: 991px){
+    /*----------Index.html----------*/
     .logoCotil{
       width: 100px;
     }
@@ -183,11 +365,100 @@ p{
 
     .btnCard{
       width: 45%;
+      font-size: 0.7em;
+    }
+
+    /*----------personagem.html----------*/
+    .containerPersonagem{
+      padding: 3%;
+      border-radius: 20px;
+      margin-bottom: 15%;
+    }
+
+    .secondImagePersonagem{
+      margin-top: 3%;
+      width: 100%;
+    }
+
+    .textPersonagem{
+      font-size: 1.2em;
+    }
+
+    /*forms.html*/
+    .sendIcon{
+      margin-right: 10px;
+    }
+    
+    option{
       font-size: 0.8em;
+    }
+
+    input::placeholder, textarea::placeholder{
+      font-size: 1em;
+    }
+
+    .turma::placeholder{
+      font-size: 0.61em;
+    }
+
+    /*forms.html*/
+    option{
+      font-size: 0.6em;
+    }
+
+    .mainForm{
+      margin-bottom: 15%;
+    }
+
+    /*----------first.html----------*/
+    .firstImagefirst{
+      width: 55%;
+      margin-top: 1%;
+    }
+
+    .textFirst{
+      padding: 3%;
+      border-radius: 20px;
+    } 
+
+    .mainFirst{
+      margin-bottom: 5%;
+    }
+
+    .secondImageFirst{
+      width: 98%;
+    }
+
+    .thirdImageFirst{
+      margin-top: 2%;
+      margin-bottom: 0.8%;
+      width: 75%;
+    }
+
+    .textFirst{
+      margin-bottom: 15%;
+    }
+
+    .pFirst{
+      margin-top: 3%;
+      font-size: 0.7em;
+    }
+
+    .rowFirst{
+      margin-top: 3%;
+    }
+
+    .rowFirst p{
+      font-size: 0.7em;
+    }
+
+    .descFirst{
+      font-size: 0.7em;
     }
   }
 
   @media (min-width: 576px) and (max-width: 767px){
+    /*----------Index.html----------*/
     .logoCotil{
       width: 100px;
     }
@@ -226,9 +497,91 @@ p{
     .card-body p{
       font-size: 1em;
     }
+
+    /*----------personagem.html----------*/
+    .containerPersonagem{
+      padding: 3%;
+      border-radius: 20px;
+      margin-bottom: 15%;
+    }
+
+    .secondImagePersonagem{
+      margin-top: 2%;
+      width: 100%;
+    }
+
+    .textPersonagem{
+      text-align: justify;
+      margin-top: 5%;
+      font-size: 1.2em;
+    }
+
+    /*forms.html*/
+    option{
+      font-size: 0.6em;
+    }
+
+    .mainForm{
+      margin-bottom: 30%;
+    }
+
+    /*----------first.html----------*/
+    .firstImagefirst{
+      width: 80%;
+      margin-top: 1%;
+    }
+
+    .textFirst{
+      padding: 3%;
+      border-radius: 20px;
+    } 
+
+    .mainFirst{
+      margin-bottom: 10%;
+    }
+
+    .secondImageFirst{
+      width: 98%;
+    }
+
+    .thirdImageFirst{
+      margin-top: 2%;
+      margin-bottom: 0.8%;
+      width: 75%;
+    }
+
+    .textFirst{
+      margin-bottom: 15%;
+    }
+
+    .pFirst{
+      margin-top: 3%;
+      font-size: 0.7em;
+    }
+
+    .rowFirst{
+      margin-top: 3%;
+    }
+
+    .rowFirst p{
+      font-size: 0.7em;
+    }
+
+    .descFirst{
+      font-size: 0.7em;
+    }
+
+    .titleFirst{
+      font-size: 1.5em;
+    }
+
+    .paragraphFirst{
+      font-size: 0.8em;
+    }
   }
 
   @media (min-width: 456px) and (max-width: 575px){
+    /*----------Index.html----------*/
     .logoCotil{
       width: 100px;
     }
@@ -243,9 +596,11 @@ p{
 
     .titleMain{
       text-align: center;
+      font-size: 2.5em;
     }
     .text{
       text-align: center;
+      font-size: 1.2em;
     }
 
     .main{
@@ -275,18 +630,123 @@ p{
     .card-body p{
       font-size: 1em;
     }
+
+    /*----------personagem.html----------*/
+    .secondImagePersonagem{
+      margin-top: 2%;
+      width: 80%;
+      margin-left: 9%;
+    }
+
+    .containerPersonagem{
+      text-align: justify;
+      margin-top: 5%;
+      width: 90%;
+      border-radius: 10px;
+      margin-bottom: 1%;
+    }
+
+    .containerPersonagem img{
+      margin-top: 20px;
+    }
+
+    .textPersonagem{
+      text-align: justify;
+      margin-top: 5%;
+      font-size: 1em;
+    }
+
+    .titlePersonagem, .pPersonagem{
+      margin-left: 5%;
+    }
+
+    .titleForms{
+      text-align: center;
+    }
+
+    .pForms{
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    /*forms.html*/
+    option{
+      font-size: 0.7em;
+    }
+
+    .mainForm{
+      margin-bottom: 30%;
+    }
+
+    /*----------first.html----------*/
+    .firstImagefirst{
+      width: 80%;
+      margin-top: 1%;
+    }
+
+    .textFirst{
+      padding: 3%;
+      border-radius: 20px;
+      width: 92%;
+    } 
+
+    .mainFirst{
+      margin-bottom: 10%;
+    }
+
+    .secondImageFirst{
+      width: 98%;
+    }
+
+    .thirdImageFirst{
+      margin-top: 2%;
+      margin-bottom: 0.8%;
+      width: 75%;
+    }
+
+    .textFirst{
+      margin-bottom: 15%;
+    }
+
+    .pFirst{
+      margin-top: 3%;
+      font-size: 0.7em;
+    }
+
+    .rowFirst{
+      margin-top: 3%;
+    }
+
+    .rowFirst p{
+      font-size: 0.7em;
+    }
+
+    .descFirst{
+      font-size: 0.7em;
+    }
+
+    .titleFirst{
+      font-size: 1.5em;
+    }
+
+    .paragraphFirst{
+      font-size: 0.8em;
+    }
   }
 
   
-  @media  (min-width: 299px) and (max-width: 455px){
+  @media  (min-width: 299px) and (max-width: 456px){
+    /*----------Index.html----------*/
     .logoCotil{
       width: 100px;
     }
     .titleMain{
       text-align: center;
+      font-size: 1.8em;
     }
     .text{
       text-align: center;
+      font-size: 1.1em;
     }
 
     .firstRow{
@@ -324,17 +784,124 @@ p{
     .card-body p{
       font-size: 0.7em;
     }
+
+    /*----------personagem.html----------*/
+    .secondImagePersonagem{
+      margin-top: 2%;
+      width: 80%;
+      margin-left: 9%;
+    }
+
+    .containerPersonagem{
+      text-align: justify;
+      margin-top: 5%;
+      width: 90%;
+      border-radius: 10px;
+      margin-bottom: 1%;
+    }
+
+    .containerPersonagem img{
+      margin-top: 20px;
+    }
+
+    .textPersonagem{
+      text-align: justify;
+      margin-top: 5%;
+      font-size: 0.9em;
+    }
+
+    .titlePersonagem, .pPersonagem{
+      margin-left: 5%;
+    }
+
+    .titleForms{
+      text-align: center;
+    }
+
+    .pForms{
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    /*forms.html*/
+    option{
+      font-size: 0.6em;
+    }
+
+    .mainForm{
+      margin-bottom: 30%;
+    }
+
+    /*----------first.html----------*/
+    .firstImagefirst{
+      width: 80%;
+      margin-top: 1%;
+    }
+
+    .textFirst{
+      padding: 3%;
+      border-radius: 20px;
+      width: 92%;
+    } 
+
+    .mainFirst{
+      margin-bottom: 10%;
+    }
+
+    .secondImageFirst{
+      width: 98%;
+    }
+
+    .thirdImageFirst{
+      margin-top: 2%;
+      margin-bottom: 0.8%;
+      width: 75%;
+    }
+
+    .textFirst{
+      margin-bottom: 15%;
+    }
+
+    .pFirst{
+      margin-top: 3%;
+      font-size: 0.6em;
+    }
+
+    .rowFirst{
+      margin-top: 3%;
+    }
+
+    .rowFirst p{
+      font-size: 0.6em;
+    }
+
+    .descFirst{
+      font-size: 0.6em;
+    }
+
+    .titleFirst{
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    .paragraphFirst{
+      font-size: 0.7em;
+      text-align: center;
+    }
   }
 
   @media (max-width: 298px){
+    /*----------Index.html----------*/
     .logoCotil{
       width: 100px;
     }
     .titleMain{
       text-align: center;
+      font-size: 1.5em;
     }
     .text{
       text-align: center;
+      font-size: 1em;
     }
 
     .firstRow{
@@ -376,5 +943,107 @@ p{
     .btnCard{
       width: 38%;
       font-size: 0.6em;
+    }
+
+    /*----------personagem.html----------*/
+    .secondImagePersonagem{
+      margin-top: 2%;
+      width: 90%;
+      margin-left: 4%;
+    }
+
+    .containerPersonagem{
+      text-align: justify;
+      margin-top: 5%;
+      width: 90%;
+      border-radius: 10px;
+    }
+
+    .containerPersonagem img{
+      margin-top: 20px;
+    }
+
+    .textPersonagem{
+      text-align: justify;
+      margin-top: 5%;
+      font-size: 0.9em;
+    }
+
+    .titlePersonagem, .pPersonagem{
+      margin-left: 5%;
+    }
+
+    .titleForms{
+      text-align: center;
+    }
+
+    .pForms{
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    /*forms.html*/
+    option{
+      font-size: 0.8em;
+    }
+    .mainForm{
+      margin-bottom: 30%;
+    }
+
+    /*----------first.html----------*/
+    .firstImagefirst{
+      width: 80%;
+      margin-top: 1%;
+    }
+
+    .textFirst{
+      padding: 3%;
+      border-radius: 20px;
+      width: 92%;
+    } 
+
+    .mainFirst{
+      margin-bottom: 10%;
+    }
+
+    .secondImageFirst{
+      width: 98%;
+    }
+
+    .thirdImageFirst{
+      margin-top: 2%;
+      margin-bottom: 0.8%;
+      width: 75%;
+    }
+
+    .textFirst{
+      margin-bottom: 15%;
+    }
+
+    .pFirst{
+      margin-top: 3%;
+      font-size: 0.55em;
+    }
+
+    .rowFirst{
+      margin-top: 3%;
+    }
+
+    .rowFirst p{
+      font-size: 0.55em;
+    }
+
+    .descFirst{
+      font-size: 0.55em;
+    }
+
+    .titleFirst{
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    .paragraphFirst{
+      font-size: 0.55em;
+      text-align: center;
     }
   }

@@ -1,0 +1,856 @@
+.text{
+    background-color: rgb(226, 235, 226);
+    padding: 3%;
+    border-radius: 20px;
+}
+
+@media (min-width: 1200px){
+    /*-------Second.html---------*/
+    .firstImageSecond{
+        width: 50%;
+        margin-top: 1%;
+    }
+
+    .paragraphSecond{
+        margin-top: 10%;
+    }
+
+    .mainSecond{
+        margin-bottom: 5%;
+    }
+
+    .text{
+        margin-bottom: 15%;
+    }
+    
+    iframe{
+      width: 100%;
+    }
+
+    .image{
+      width: 100%;
+    }
+
+    /*-------Third.html---------*/
+    .firstImageThird{
+        width: 60%;
+        margin-top: 4%;
+    }
+
+    .textThird{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        margin-top: 2%;
+    }
+
+    .secondImageThird{ 
+        width: 100%;
+    }
+
+    .paragraphThird{
+        margin-top: 11%;
+    }
+
+    .last{
+        margin-top: 5%;
+    }
+
+    .thirdImageThird{
+        width: 65%;
+    }
+
+    /*Fourth.html*/
+    .firstImageFourth{
+        width: 65%;
+        margin-top: 4%;
+    }
+
+    .mainFourth{
+        margin-bottom: 5%;
+    }
+
+    .secondImageFourth{
+        width: 98%;
+    }
+
+    .textFourfh{
+        width: 100%;
+    }
+
+    /*Fifth.html*/
+    .firstImageFifth{
+        width: 60%;
+        margin-top: 2%;
+    }
+    .mainFifth{
+      margin-bottom: 6%;
+    }
+
+    .secondImage{
+        width: 98%;
+        margin-top: 4%;
+    }
+
+    .desc{
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    /*-------Second.html---------*/
+    .firstImageSecond{
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .paragraphSecond{
+        margin-top: 9%;
+    }
+
+    .mainSecond{
+        margin-bottom: 5%;
+    }
+
+    .text{
+        margin-bottom: 15%;
+    }
+    
+    iframe{
+      width: 100%;
+    }
+
+    .image{
+      width: 100%;
+    }
+
+    /*-------Third.html---------*/
+    .firstImageThird{
+        width: 60%;
+        margin-top: 4%;
+    }
+
+    .textThird{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        margin-top: 2%;
+    }
+
+    .secondImageThird{ 
+        width: 100%;
+    }
+
+    .paragraphThird{
+        margin-top: 11%;
+    }
+
+    .last{
+        margin-top: 5%;
+    }
+
+    .thirdImageThird{
+        width: 65%;
+    }
+
+    /*Fourth.html*/
+    .firstImageFourth{
+        width: 65%;
+        margin-top: 4%;
+    }
+
+    .mainFourth{
+        margin-bottom: 5%;
+    }
+
+    .secondImageFourth{
+        width: 98%;
+        margin-top: 11%;
+    }
+
+    .textFourfh{
+        width: 100%;
+    }
+
+    /*Fifth.html*/
+    .firstImageFifth{
+        width: 60%;
+        margin-top: 2%;
+    }
+    .mainFifth{
+      margin-bottom: 6%;
+    }
+
+    .secondImage{
+        width: 98%;
+        margin-top: 4%;
+    }
+
+    .desc{
+        text-align: center;
+    }
+
+    .textFifth p{
+        margin-top: 3.8%;
+        font-size: 1em;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    /*-------Second.html---------*/
+    .firstImageSecond{
+        width: 90%;
+        margin-top: 1%;
+    }
+
+    .paragraphSecond{
+        margin-top: 10%;
+    }
+
+    .mainSecond{
+        margin-bottom: 5%;
+    }
+
+    .text{
+        margin-bottom: 15%;
+    }
+
+    .text p{
+        font-size: 1em;
+    }
+    
+    iframe{
+      width: 100%;
+    }
+
+    .image{
+      width: 100%;
+    }
+
+    /*-------Third.html---------*/
+    .firstImageThird{
+        width: 60%;
+        margin-top: 4%;
+    }
+
+    .textThird{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .secondImageThird{ 
+        width: 100%;
+    }
+
+    .paragraphThird{
+        margin-top: 4%;
+    }
+
+    .last{
+        margin-top: 5%;
+    }
+
+    .thirdImageThird{
+        width: 65%;
+    }
+
+     /*Fourth.html*/
+     .firstImageFourth{
+        width: 65%;
+        margin-top: 4%;
+    }
+
+    .mainFourth{
+        margin-bottom: 5%;
+    }
+
+    .secondImageFourth{
+        width: 100%;
+        margin-top: 13%;
+    }
+
+    .textFourfh{
+        width: 100%;
+    }
+
+    /*Fifth.html*/
+    .firstImageFifth{
+        width: 60%;
+        margin-top: 2%;
+    }
+    .mainFifth{
+      margin-bottom: 6%;
+    }
+
+    .secondImage{
+        width: 98%;
+        margin-top: 4%;
+    }
+
+    .desc{
+        text-align: center;
+    }
+
+    .textFifth p{
+        margin-top: 2%;
+        font-size: 0.8em;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    /*-------Second.html---------*/
+    .firstImageSecond{
+        width: 90%;
+        margin-top: 1%;
+    }
+
+
+    .mainSecond{
+        margin-bottom: 5%;
+    }
+
+    .text{
+        margin-bottom: 15%;
+    }
+
+    .text p{
+        font-size: 1em;
+    }
+    
+    iframe{
+      width: 100%;
+    }
+
+    .image{
+      width: 100%;
+    }
+
+    /*-------Third.html---------*/
+    .firstImageThird{
+        width: 80%;
+        margin-top: 4%;
+    }
+
+    .textThird{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        width: 100%;
+    }
+
+    .secondImageThird{ 
+        width: 100%;
+    }
+
+    .paragraphThird{
+        margin-top: 1%;
+    }
+
+    .last{
+        margin-top: 5%;
+    }
+
+    .thirdImageThird{
+        width: 100%;
+    }
+
+    /*Fourth.html*/
+    .firstImageFourth{
+        width: 65%;
+        margin-top: 4%;
+    }
+
+    .mainFourth{
+        margin-bottom: 5%;
+    }
+
+    .secondImageFourth{
+        width: 100%;
+    }
+
+    .textFourfh{
+        width: 100%;
+    }
+
+    /*Fifth.html*/
+    .firstImageFifth{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .mainFifth{
+      margin-bottom: 6%;
+    }
+
+    .mainFifth h5{
+        font-size: 1.5em;
+    }
+
+    .mainFifth p{
+        font-size: 0.9em;
+    }
+
+    .secondImage{
+        width: 98%;
+        margin-top: 4%;
+    }
+
+    .desc{
+        text-align: center;
+    }
+
+    .textFifth p{
+        margin-top: 3.8%;
+        font-size: 0.9em;
+    }
+}
+
+
+
+@media (min-width: 456px) and (max-width: 575px){
+    /*-------Second.html---------*/
+    .firstImageSecond{
+        width: 90%;
+        margin-top: 1%;
+    }
+
+    .paragraphSecond{
+        margin-top: 2%;
+    }
+    
+    .mainSecond{
+        margin-bottom: 7%;
+    }
+
+    .mainSecond p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .mainSecond h5{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .text{
+        margin-bottom: 15%;
+        width: 95%;
+    }
+
+    .text p{
+        font-size: 0.8em;
+    }
+    
+    iframe{
+      width: 100%;
+    }
+
+    .image{
+      width: 100%;
+    }
+
+    /*-------Third.html---------*/
+    .firstImageThird{
+        width: 80%;
+        margin-top: 4%;
+    }
+
+    .textThird{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        width: 90%;
+    }
+
+    .mainThird h5{
+        text-align: center;
+    }
+
+    .mainThird p{
+        text-align: center;
+    }
+
+    .secondImageThird{ 
+        width: 100%;
+    }
+
+    .paragraphThird{
+        margin-top: 1%;
+    }
+
+    .last{
+        margin-top: 5%;
+    }
+
+    .thirdImageThird{
+        width: 100%;
+    }
+
+    /*Fourth.html*/
+    .firstImageFourth{
+        width: 65%;
+        margin-top: 4%;
+    }
+
+    .mainFourth{
+        margin-bottom: 5%;
+    }
+
+    .mainFourth h5{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .mainFourth p{
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .secondImageFourth{
+        width: 100%;
+    }
+
+    .textFourfh{
+        width: 90%;
+    }
+
+    .textFourfh p{
+        font-size: 0.8em;
+    }
+
+    /*Fifth.html*/
+    .firstImageFifth{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .mainFifth{
+      margin-bottom: 6%;
+    }
+
+    .mainFifth h5{
+        font-size: 1.5em;
+    }
+
+    .mainFifth p{
+        font-size: 0.9em;
+    }
+
+    .secondImage{
+        width: 98%;
+        margin-top: 4%;
+    }
+
+    .desc{
+        text-align: center;
+    }
+
+    .textFifth p{
+        margin-top: 3.8%;
+        font-size: 0.9em;
+    }
+}
+
+  
+
+
+@media  (min-width: 299px) and (max-width: 456px){
+    /*-------Second.html---------*/
+    .firstImageSecond{
+        width: 90%;
+        margin-top: 1%;
+    }
+
+    .paragraphSecond{
+        margin-top: 2%;
+    }
+    
+    .mainSecond{
+        margin-bottom: 7%;
+    }
+
+    .mainSecond p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .mainSecond h5{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .text{
+        margin-bottom: 15%;
+        width: 95%;
+    }
+
+    .text p{
+        font-size: 0.8em;
+    }
+    
+    iframe{
+      width: 100%;
+    }
+
+    .image{
+      width: 100%;
+    }
+
+    /*-------Third.html---------*/
+    .firstImageThird{
+        width: 80%;
+        margin-top: 4%;
+    }
+
+    .textThird{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        width: 90%;
+    }
+
+    .mainThird h5{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .mainThird p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .secondImageThird{ 
+        width: 100%;
+    }
+
+    .paragraphThird{
+        margin-top: 1%;
+    }
+
+    .last{
+        margin-top: 5%;
+    }
+
+    .thirdImageThird{
+        width: 100%;
+    }
+
+    /*Fourth.html*/
+    .firstImageFourth{
+        width: 65%;
+        margin-top: 4%;
+    }
+
+    .mainFourth{
+        margin-bottom: 5%;
+    }
+
+    .mainFourth h5{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .mainFourth p{
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .secondImageFourth{
+        width: 100%;
+    }
+
+    .textFourfh{
+        width: 90%;
+    }
+
+    .textFourfh p{
+        font-size: 0.8em;
+    }
+
+    /*Fifth.html*/
+    .firstImageFifth{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .mainFifth{
+      margin-bottom: 6%;
+    }
+
+    .mainFifth h5{
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .mainFifth p{
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .secondImage{
+        width: 98%;
+        margin-top: 4%;
+    }
+
+    .desc{
+        text-align: center;
+    }
+
+    .textFifth p{
+        margin-top: 3.8%;
+        font-size: 0.7em;
+    }
+}
+
+
+
+
+@media (max-width: 298px){
+    /*-------Second.html---------*/
+    .firstImageSecond{
+        width: 90%;
+        margin-top: 1%;
+    }
+
+    .paragraphSecond{
+        margin-top: 2%;
+    }
+    
+    .mainSecond{
+        margin-bottom: 7%;
+    }
+
+    .mainSecond p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .mainSecond h5{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .text{
+        margin-bottom: 15%;
+        width: 95%;
+    }
+
+    .text p{
+        font-size: 0.8em;
+    }
+    
+    iframe{
+      width: 100%;
+    }
+
+    .image{
+      width: 100%;
+    }
+
+     /*-------Third.html---------*/
+     .firstImageThird{
+        width: 80%;
+        margin-top: 4%;
+    }
+
+    .textThird{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        width: 90%;
+    }
+
+    .textThird p{
+       font-size: 0.6em;
+    }
+
+    .mainThird h5{
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .mainThird p{
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    .secondImageThird{ 
+        width: 100%;
+    }
+
+    .paragraphThird{
+        margin-top: 1%;
+    }
+
+    .last{
+        margin-top: 5%;
+    }
+
+    .thirdImageThird{
+        width: 100%;
+    }
+
+    /*Fourth.html*/
+    .firstImageFourth{
+        width: 80%;
+        margin-top: 4%;
+    }
+
+    .mainFourth{
+        margin-bottom: 10%;
+    }
+
+    .mainFourth h5{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .mainFourth p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .secondImageFourth{
+        width: 100%;
+    }
+
+    .textFourfh{
+        width: 90%;
+    }
+
+    .textFourfh p{
+        font-size: 0.6em;
+    }
+
+    /*Fifth.html*/
+    .firstImageFifth{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .mainFifth{
+      margin-bottom: 6%;
+    }
+
+    .mainFifth h5{
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .mainFifth p{
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .secondImage{
+        width: 98%;
+        margin-top: 4%;
+    }
+
+    .desc{
+        text-align: center;
+    }
+
+    .textFifth p{
+        margin-top: 3.8%;
+        font-size: 0.7em;
+    }
+}

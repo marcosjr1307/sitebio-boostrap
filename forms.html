@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logoCotil" src="img/logocotil.png" alt="Logo Cotil"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="personagem.html">Personagem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="alunos.html">Alunos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Perguntas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="first.html">Pergunta 1</a></li>
+                  <li><a class="dropdown-item" href="second.html">Pergunta 1 - Itens A e B</a></li>
+                  <li><a class="dropdown-item" href="third.html">Pergunta 2</a></li>
+                  <li><a class="dropdown-item" href="fourth.html">Pergunta 3</a></li>
+                  <li><a class="dropdown-item" href="fifith.html">Pergunta 4</a></li>
+                  <li><a class="dropdown-item" href="sixth.html">Pergunta 5</a></li>
+                  <li><a class="dropdown-item" href="seventh.html">Pergunta 6</a></li>
+                  <li><a class="dropdown-item" href="eighth.html">Pergunta 7</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="curiosidades.html">Curiosidades</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="forms.html">Fale conosco!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mainForm">
+        <div class="row mt-5">
+            <div class="col-12">
+                <h5 class="display-6 titleForms"><i class="bi bi-chat" style="margin-right: 1%;"></i>Fale conosco</h5>
+                <p class="lead pForms">Caso você seja um entusiasta de onças pintadas ou queira falar conosco, mande aqui a sua mensagem!</p>
+            </div>
+        </div>
+
+        <form class="row g-2 mt-4 textForm needs-validation" novalidate>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputCity" required placeholder="Insira seu nome">
+                <div class="invalid-feedback">
+                    Por favor insira o seu nome!
+                </div>
+                <div class="valid-feedback">
+                    Validado!
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" required placeholder="exemplo@email.com">
+                <div class="invalid-feedback">
+                    Por favor insira o seu email!
+                </div>
+                <div class="valid-feedback">
+                    Validado!
+                </div>
+            </div>
+            <!-- <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>-->
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="inputCity" required placeholder="Insira a sua cidade">
+              <div class="invalid-feedback">
+                Por favor insira a sua cidade!
+              </div>
+              <div class="valid-feedback">
+                Validado!
+            </div>
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Estado</label>
+              <select id="inputState" class="form-select selection">
+                <option></option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+              </select>
+              <div class="invalid-feedback">
+                Por favor selecione o seu estado!
+              </div>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Turma</label>
+              <input type="text" class="form-control validationCustom01 turma" id="inputZip" required placeholder="Insira a sua turma">
+              <div class="invalid-feedback">
+                Insira a sua turma!
+              </div>
+              <div class="valid-feedback">
+                Validado!
+            </div>
+            </div>
+            <div class="col-md-12">
+                <label for="exampleFormControlTextarea1" class="form-label">Sua mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required placeholder="Digite a sua mensagem..."></textarea>
+                <div class="invalid-feedback">
+                    Por favor insira a sua mensagem!
+                </div>
+                <div class="valid-feedback">
+                    Validado!
+                </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Salvar minhas informações
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-send-plus sendIcon"></i>Enviar</button>
+              <button type="reset" value="Limpar" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="Clique no botão caso deseje apagar todos os campos">
+                <i class="bi bi-x-circle"></i> Limpar</button>
+            </div>
+          </form>
+      </div>
+
+      <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+      </script>
+      <script>
+        (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+        if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+        }
+
+            form.classList.add('was-validated')
+            }, false)
+        })
+        })()
+      </script>
+    
+</body>
+</html>
